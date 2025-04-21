@@ -1,38 +1,38 @@
 ---
 home: true
 title: Home
-heroImage: /images/hero.png
+heroImage: /images/Ante.png
 actions:
-  - text: Get Started
+  - text: 开始！
     link: /guide/getting-started.html
     type: primary
 
-  - text: Introduction
+  - text: 介绍
     link: /guide/introduction.html
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  - title: 标题一
+    details: 添加标题描述
 
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
+  - title: 标题二
+    details: 添加标题描述
 
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: 标题三
+    details: 添加标题描述
 
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
+  - title: 标题四
+    details: 添加标题描述
 
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
+  - title: 标题五
+    details: 添加标题描述
 
-  - title: Bundlers
-    details: Recommended bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 标题六
+    details: 添加标题描述
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: Copyright © 2025-present Ante Personal
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+这是主页的内容，点击[Home Page Docs][default-theme-home]查看更多详情
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+[default-theme-home]: https://vuejs.press/zh/guide/introduction.html

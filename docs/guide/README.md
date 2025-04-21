@@ -4,4 +4,4 @@ title: 页面的标题
 description: 页面的描述
 ---
 
-[text](../get-started.md)
+[getting-started](./getting-started.md)
