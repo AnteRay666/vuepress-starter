@@ -1,32 +1,26 @@
 import type { NavbarOptions } from "@vuepress/theme-default";
-import { VERSION } from "../meta.js";
+// import { VERSION } from "../meta.js";
 
 export const navbarZh: NavbarOptions = [
   {
     text: "指南",
-    children: ["/zh/guide/getting-started.md"],
+    children: ["/guide/getting-started.md"],
   },
   {
     text: "参考",
     children: [
+      
       {
-        text: "核心",
+        text: "协议",
         children: [
-          "/zh/reference/cli.md",
-          "/zh/reference/config.md",
-          "/zh/reference/frontmatter.md",
-          "/zh/reference/components.md",
-          "/zh/reference/plugin-api.md",
-          "/zh/reference/theme-api.md",
-          "/zh/reference/client-api.md",
-          "/zh/reference/node-api.md",
+          "/reference/main.md",
         ],
       },
       {
-        text: "打包工具",
+        text: "测试Page",
         children: [
-          "/zh/reference/bundler/vite.md",
-          "/zh/reference/bundler/webpack.md",
+          "/reference/Page1.md",
+          "/reference/Page2.md",
         ],
       },
       {
@@ -48,14 +42,20 @@ export const navbarZh: NavbarOptions = [
     text: "了解更多",
     children: [
       {
+        text:"advanced主界面",
+        children:[
+          "/advanced/main.md",
+        ]
+      },
+      {
         text: "深入",
         children: [
-          "/zh/advanced/architecture.md",
-          "/zh/advanced/plugin.md",
-          "/zh/advanced/theme.md",
+          "/advanced/confidentiality-agreement.md",
+          "/advanced/corecommit.md",
+          "/advanced/theme.md",
           {
             text: "Cookbook",
-            link: "/zh/advanced/cookbook/",
+            link: "/advanced/cookbook/",
           },
         ],
       },
@@ -78,22 +78,22 @@ export const navbarZh: NavbarOptions = [
       },
     ],
   },
-  {
-    text: `v${VERSION}`,
-    children: [
-      {
-        text: "更新日志",
-        link: "https://github.com/vuepress/core/blob/main/CHANGELOG.md",
-      },
-      {
-        text: "v1.x",
-        link: "https://v1.vuepress.vuejs.org/zh/",
-      },
-      {
-        text: "v0.x",
-        link: "https://v0.vuepress.vuejs.org/zh/",
-      },
-    ],
-  },
+  // {
+  //   text: `v${VERSION}`,
+  //   children: [
+  //     {
+  //       text: "更新日志",
+  //       link: "https://github.com/vuepress/core/blob/main/CHANGELOG.md",
+  //     },
+  //     {
+  //       text: "v1.x",
+  //       link: "https://v1.vuepress.vuejs.org/zh/",
+  //     },
+  //     {
+  //       text: "v0.x",
+  //       link: "https://v0.vuepress.vuejs.org/zh/",
+  //     },
+  //   ],
+  // },
   // TODO: remove the type assertion
 ] as NavbarOptions;

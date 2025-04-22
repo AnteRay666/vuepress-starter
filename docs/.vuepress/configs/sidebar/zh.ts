@@ -1,68 +1,51 @@
 import type { SidebarOptions } from "@vuepress/theme-default";
 
 export const sidebarZh: SidebarOptions = {
-  "/zh/guide/": [
+  "/guide/": [
     {
       text: "指南",
       children: [
-        "/zh/guide/introduction.md",
-        "/zh/guide/getting-started.md",
-        "/zh/guide/configuration.md",
-        "/zh/guide/page.md",
-        "/zh/guide/markdown.md",
-        "/zh/guide/assets.md",
-        "/zh/guide/i18n.md",
-        "/zh/guide/deployment.md",
-        "/zh/guide/theme.md",
-        "/zh/guide/plugin.md",
-        "/zh/guide/bundler.md",
-        "/zh/guide/migration.md",
-        "/zh/guide/troubleshooting.md",
+        "/guide/introduction.md",
+        "/guide/getting-started.md",
       ],
     },
   ],
-  "/zh/advanced/": [
+  "/advanced/": [
+    {
+      text:"主界面",
+      children:[
+        "/advanced/main.md",
+      ]
+    },
     {
       text: "深入",
       children: [
-        "/zh/advanced/architecture.md",
-        "/zh/advanced/plugin.md",
-        "/zh/advanced/theme.md",
+        "/advanced/confidentiality-agreement.md",
+        "/advanced/plugin.md",
+  
       ],
     },
     {
       text: "Cookbook",
       children: [
-        "/zh/advanced/cookbook/README.md",
-        "/zh/advanced/cookbook/usage-of-client-config.md",
-        "/zh/advanced/cookbook/adding-extra-pages.md",
-        "/zh/advanced/cookbook/making-a-theme-extendable.md",
-        "/zh/advanced/cookbook/passing-data-to-client-code.md",
-        "/zh/advanced/cookbook/markdown-and-vue-sfc.md",
-        "/zh/advanced/cookbook/resolving-routes.md",
+        "/advanced/cookbook/README.md",
+        "/advanced/cookbook/usage-of-client-config.md",
       ],
     },
   ],
-  "/zh/reference/": [
+  "/reference/": [
     {
       text: "核心",
       collapsible: true,
       children: [
-        "/zh/reference/cli.md",
-        "/zh/reference/config.md",
-        "/zh/reference/frontmatter.md",
-        "/zh/reference/components.md",
-        "/zh/reference/plugin-api.md",
-        "/zh/reference/theme-api.md",
-        "/zh/reference/client-api.md",
-        "/zh/reference/node-api.md",
+        "/reference/main.md",
       ],
     },
     {
       text: "打包工具",
       children: [
-        "/zh/reference/bundler/vite.md",
-        "/zh/reference/bundler/webpack.md",
+        "/reference/bundler/vite.md",
+        "/reference/bundler/webpack.md",
       ],
     },
     {

@@ -1,61 +1,61 @@
 import type { SidebarOptions } from "@vuepress/theme-default";
 
 export const sidebarEn: SidebarOptions = {
-  "/guide/": [
+  "/en/guide/": [
     {
       text: "Guide",
       children: [
-        "/guide/introduction.md",
-        "/guide/getting-started.md",
-        "/guide/configuration.md",
-        "/guide/page.md",
-        "/guide/markdown.md",
-        "/guide/assets.md",
-        "/guide/i18n.md",
-        "/guide/deployment.md",
-        "/guide/theme.md",
-        "/guide/plugin.md",
-        "/guide/bundler.md",
-        "/guide/migration.md",
-        "/guide/troubleshooting.md",
+        "/en/guide/introduction.md",
+        "/en/guide/getting-started.md",
+        "/en/guide/configuration.md",
+        "/en/guide/page.md",
+        "/en/guide/markdown.md",
+        "/en/guide/assets.md",
+        "/en/guide/i18n.md",
+        "/en/guide/deployment.md",
+        "/en/guide/theme.md",
+        "/en/guide/plugin.md",
+        "/en/guide/bundler.md",
+        "/en/guide/migration.md",
+        "/en/guide/troubleshooting.md",
       ],
     },
   ],
-  "/advanced/": [
+  "/en/advanced/": [
     {
       text: "Advanced",
       children: [
-        "/advanced/architecture.md",
-        "/advanced/plugin.md",
-        "/advanced/theme.md",
+        "/en/advanced/architecture.md",
+        "/en/advanced/plugin.md",
+        "/en/advanced/theme.md",
       ],
     },
     {
       text: "Cookbook",
       children: [
-        "/advanced/cookbook/README.md",
-        "/advanced/cookbook/usage-of-client-config.md",
-        "/advanced/cookbook/adding-extra-pages.md",
-        "/advanced/cookbook/making-a-theme-extendable.md",
-        "/advanced/cookbook/passing-data-to-client-code.md",
-        "/advanced/cookbook/markdown-and-vue-sfc.md",
-        "/advanced/cookbook/resolving-routes.md",
+        "/en/advanced/cookbook/README.md",
+        "/en/advanced/cookbook/usage-of-client-config.md",
+        "/en/advanced/cookbook/adding-extra-pages.md",
+        "/en/advanced/cookbook/making-a-theme-extendable.md",
+        "/en/advanced/cookbook/passing-data-to-client-code.md",
+        "/en/advanced/cookbook/markdown-and-vue-sfc.md",
+        "/en/advanced/cookbook/resolving-routes.md",
       ],
     },
   ],
-  "/reference/": [
+  "/en/reference/": [
     {
       text: "Core",
       collapsible: true,
       children: [
-        "/reference/cli.md",
-        "/reference/config.md",
-        "/reference/frontmatter.md",
-        "/reference/components.md",
-        "/reference/plugin-api.md",
-        "/reference/theme-api.md",
-        "/reference/client-api.md",
-        "/reference/node-api.md",
+        "/en/reference/cli.md",
+        "/en/reference/config.md",
+        "/en/reference/frontmatter.md",
+        "/en/reference/components.md",
+        "/en/reference/plugin-api.md",
+        "/en/reference/theme-api.md",
+        "/en/reference/client-api.md",
+        "/en/reference/node-api.md",
       ],
     },
     {

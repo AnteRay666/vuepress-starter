@@ -5,19 +5,19 @@ export const navbarEn: NavbarOptions = [
   {
     text: "Guide",
     children: [
-      "/guide/introduction.md",
-      "/guide/getting-started.md",
-      "/guide/configuration.md",
-      "/guide/page.md",
-      "/guide/markdown.md",
-      "/guide/assets.md",
-      "/guide/i18n.md",
-      "/guide/deployment.md",
-      "/guide/theme.md",
-      "/guide/plugin.md",
-      "/guide/bundler.md",
-      "/guide/migration.md",
-      "/guide/troubleshooting.md",
+      "/en/guide/introduction.md",
+      "/en/guide/getting-started.md",
+      "/en/guide/configuration.md",
+      "/en/guide/page.md",
+      "/en/guide/markdown.md",
+      "/en/guide/assets.md",
+      "/en/guide/i18n.md",
+      "/en/guide/deployment.md",
+      "/en/guide/theme.md",
+      "/en/guide/plugin.md",
+      "/en/guide/bundler.md",
+      "/en/guide/migration.md",
+      "/en/guide/troubleshooting.md",
     ],
   },
   {
@@ -30,20 +30,20 @@ export const navbarEn: NavbarOptions = [
             text: "CLI",
             link: "/reference/cli.html",
           },
-          "/reference/config.md",
-          "/reference/frontmatter.md",
-          "/reference/components.md",
-          "/reference/plugin-api.md",
-          "/reference/theme-api.md",
-          "/reference/client-api.md",
-          "/reference/node-api.md",
+          "/en/reference/config.md",
+          "/en/reference/frontmatter.md",
+          "/en/reference/components.md",
+          "/en/reference/plugin-api.md",
+          "/en/reference/theme-api.md",
+          "/en/reference/client-api.md",
+          "/en/reference/node-api.md",
         ],
       },
       {
         text: "Bundlers",
         children: [
-          "/reference/bundler/vite.md",
-          "/reference/bundler/webpack.md",
+          "/en/eference/bundler/vite.md",
+          "/en/eference/bundler/webpack.md",
         ],
       },
       {
@@ -68,9 +68,9 @@ export const navbarEn: NavbarOptions = [
       {
         text: "Advanced",
         children: [
-          "/advanced/architecture.md",
-          "/advanced/plugin.md",
-          "/advanced/theme.md",
+          "/en/advanced/architecture.md",
+          "/en/advanced/plugin.md",
+          "/en/advanced/theme.md",
           {
             text: "Cookbook",
             link: "/advanced/cookbook/",
@@ -96,22 +96,22 @@ export const navbarEn: NavbarOptions = [
       },
     ],
   },
-  {
-    text: `v${VERSION}`,
-    children: [
-      {
-        text: "Changelog",
-        link: "https://github.com/vuepress/core/blob/main/CHANGELOG.md",
-      },
-      {
-        text: "v1.x",
-        link: "https://v1.vuepress.vuejs.org",
-      },
-      {
-        text: "v0.x",
-        link: "https://v0.vuepress.vuejs.org",
-      },
-    ],
-  },
+  // {
+  //   text: `v${VERSION}`,
+  //   children: [
+  //     {
+  //       text: "Changelog",
+  //       link: "https://github.com/vuepress/core/blob/main/CHANGELOG.md",
+  //     },
+  //     {
+  //       text: "v1.x",
+  //       link: "https://v1.vuepress.vuejs.org",
+  //     },
+  //     {
+  //       text: "v0.x",
+  //       link: "https://v0.vuepress.vuejs.org",
+  //     },
+  //   ],
+  // },
   // TODO: remove the type assertion
 ] as NavbarOptions;
